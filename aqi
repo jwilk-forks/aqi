@@ -84,7 +84,7 @@ def get_options():
 
 def main():
     options = get_options()
-    aqi = get_aqi(options.chemical, options.value, options.unit)
+    get_aqi(options.chemical, options.value, options.unit)
 
 if __name__ == "__main__":
     main()
